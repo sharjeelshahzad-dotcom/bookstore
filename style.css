@@ -1,0 +1,44 @@
+/* ===== GLOBAL FIX ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+/* ===== HEADINGS FONT ===== */
+h1, h2 {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    max-width: 900px;      
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: darkgreen;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+/* ===== NEWSPAPER STYLE ===== */
+.newspaper {
+    column-count: 3;      
+    column-gap: 30px;      
+    text-align: justify;
+}
